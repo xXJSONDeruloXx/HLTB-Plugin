@@ -1,39 +1,49 @@
-# ChatGPT plugins quickstart
+# Privacy Policy for ChatGPT-Plugin
 
-Get a todo list ChatGPT plugin up and running in under 5 minutes using Python. This plugin is designed to work in conjunction with the [ChatGPT plugins documentation](https://platform.openai.com/docs/plugins). If you do not already have plugin developer access, please [join the waitlist](https://openai.com/waitlist/plugins).
+Last updated: July 27, 2023
 
-## Setup locally
+This Privacy Policy describes the policies and procedures on the collection, use, and disclosure of your information when you use the ChatGPT-Plugin. This policy also informs you about your privacy rights and how the law protects you.
 
-To install the required packages for this plugin, run the following command:
+This plugin does not collect or store any personal data. The ChatGPT-Plugin was developed as a hobby project and is open-source, meaning it's available for all to use, modify, and distribute under the terms of the license.
 
-```bash
-pip install -r requirements.txt
-```
+## Interpretation and Definitions
 
-To run the plugin, enter the following command:
+### Interpretation
 
-```bash
-python main.py
-```
+The words of which the initial letter is capitalized have meanings defined under the following conditions.
 
-Once the local server is running:
+The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
 
-1. Navigate to https://chat.openai.com. 
-2. In the Model drop down, select "Plugins" (note, if you don't see it there, you don't have access yet).
-3. Select "Plugin store"
-4. Select "Develop your own plugin"
-5. Enter in `localhost:5003` since this is the URL the server is running on locally, then select "Find manifest file".
+### Definitions
 
-The plugin should now be installed and enabled! You can start with a question like "What is on my todo list" and then try adding something to it as well! 
+For the purposes of this Privacy Policy:
 
-## Setup remotely
+- **You** means the individual accessing or using the ChatGPT-Plugin, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+  
+- **Service** refers to the ChatGPT-Plugin.
 
-### Cloudflare workers
+## Data Collection and Usage
 
-### Code Sandbox
+### Types of Data Collected
 
-### Replit
+The ChatGPT-Plugin does not collect any personal data. All interactions with the plugin are processed locally on your machine and are not sent to, nor stored by the developer.
 
-## Getting help
+### Use of Your Personal Data
 
-If you run into issues or have questions building a plugin, please join our [Developer community forum](https://community.openai.com/c/chat-plugins/20).
+Since no personal data is collected, there is no use of personal data by this plugin.
+
+## Security of Your Personal Data
+
+The security of your personal data is crucial. As this plugin doesn't collect or store any personal data, there is no risk of your data being exposed through this plugin.
+
+## Disclosure of Your Personal Data
+
+Since no personal data is collected, there is no data to disclose or transfer.
+
+## Your Data Protection Rights Under General Data Protection Regulation (GDPR)
+
+The GDPR rights are typically relevant when personal data is collected. However, as this plugin does not collect any personal data, these rights do not apply in this case. You are always free to access, modify or delete any data from your local instance of the plugin.
+
+## Changes to this Privacy Policy
+
+Any updates to this Privacy Policy will be posted on the plugin's repository page. Given the open-source nature of this project, changes are typically accompanied by a new version release. Please check the repository regularly to stay updated. The "last updated" date at the top of this Privacy Policy will also be revised.
