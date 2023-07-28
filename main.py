@@ -12,7 +12,6 @@ async def get_game_info(game_name: str):
     results = await hltb.async_search(game_name)
     if results is None or len(results) == 0:
         return jsonify({"error": "No results found for this game name"}), 404
-    # Assuming that you want to return the first result
     game_info = {
             "game_id": results[0].game_id,
             "game_name": results[0].game_name,
@@ -32,6 +31,7 @@ async def get_game_info(game_name: str):
         }
     return jsonify(game_info)
 
+# paths for manifest, do not touch
 @app.get("/logo.png")
 async def plugin_logo():
     filename = 'logo.png'

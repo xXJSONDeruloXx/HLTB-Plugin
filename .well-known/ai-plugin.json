@@ -2,7 +2,7 @@
     "schema_version": "v1",
     "name_for_human": "How Long To Beat",
     "name_for_model": "How_Long_To_Beat",
-    "description_for_human": "Find out how long it takes to beat any game!.",
+    "description_for_human": "Find out how long it takes to beat any game!",
     "description_for_model": "Plugin for searching how many hours it takes to beat a videogame.",
     "auth": {
       "type": "none"
@@ -12,7 +12,7 @@
       "url": "http://localhost:5003/openapi.yaml"
     },
     "logo_url": "http://localhost:5003/logo.png",
-    "contact_email": "legal@example.com",
-    "legal_info_url": "http://example.com/legal"
+    "contact_email": "danielhimebauch@gmail.com",
+    "legal_info_url": "https://github.com/xXJSONDeruloXx/HLTB-Plugin/tree/main"
   }
-  
+
