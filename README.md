@@ -1,3 +1,56 @@
+
+BEFORE RUNNING PLUGIN RUN
+
+```pip install -r requirements.txt```
+
+
+PYTHON 3.11 DOES NOT WORK
+
+RUN ```PYTHON3.9 MAIN.PY```
+
+
+Source of howlongtobeatpy packages:
+
+https://pypi.org/project/howlongtobeatpy/#installation
+
+https://github.com/ScrappyCocco/HowLongToBeat-PythonAPI
+
+
+
+## SSL Certificate Verification
+
+This application makes secure connections to external servers, and it needs to verify the SSL certificates of these servers to ensure the connections are secure. It does this by checking the server's certificate against a bundle of trusted Certificate Authority (CA) certificates.
+
+If you encounter SSL certificate verification errors when running this application, it might be because Python can't find the bundle of trusted CA certificates. To resolve this issue, you can set the `SSL_CERT_FILE` environment variable to point to a bundle of trusted CA certificates.
+
+If you have the `certifi` Python package installed, you can use the bundle of CA certificates that it provides. Here's how to set the `SSL_CERT_FILE` environment variable to point to the `certifi` CA bundle:
+
+1. Open a terminal.
+2. Enter the Python environment by typing `python3` and pressing enter.
+3. Type the following commands:
+
+```python
+import certifi
+print(certifi.where())
+```
+
+This will print the path to the `certifi` CA bundle.
+
+4. Exit the Python environment by typing `exit()` and pressing enter.
+5. Set the `SSL_CERT_FILE` environment variable to the path you obtained in step 3. Replace `/path/to/certfile` with the actual path:
+
+```bash
+export SSL_CERT_FILE=/path/to/certfile
+```
+
+You can add this line to your `.bash_profile` or `.bashrc` file to set the `SSL_CERT_FILE` environment variable every time you open a terminal.
+
+6. Apply the changes by typing `source .bash_profile` (or `source .bashrc`) and pressing enter.
+
+After you've done this, the application should be able to verify SSL certificates and establish secure connections.
+
+---
+
 # Privacy Policy for ChatGPT-Plugin
 
 Last updated: July 27, 2023
