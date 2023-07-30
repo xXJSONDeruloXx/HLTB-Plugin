@@ -1,3 +1,4 @@
+# MUST BE RUN IN PYTHON3.9 AS 3.11 WILL HAVE SSL CERT ISSUES AS OF 7/29/23
 import quart
 from quart import Quart, request, jsonify
 from quart_cors import cors
