@@ -89,5 +89,5 @@ pattern = "**/*.py"
 start = "pylsp"
 
 [deployment]
-run = ["sh", "-c", "python3.9 main.py"]
+run = ["sh", "-c", "python main.py"]
 deploymentTarget = "gce"

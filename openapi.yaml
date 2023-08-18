@@ -4,7 +4,7 @@ info:
   description: This plugin provides information about video games using the HowLongToBeat API.
   version: "1.0"
 servers:
-  - url: https://hltb-plugin-DanHimebauch.replit.app
+  - url: https://hltb-plugin-danhimebauch.replit.app
 paths:
   /game_info/{game_name}:
     post:
