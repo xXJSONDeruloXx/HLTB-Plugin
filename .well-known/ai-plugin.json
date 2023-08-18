@@ -9,9 +9,9 @@
     },
     "api": {
       "type": "openapi",
-      "url": "http://localhost:5003/openapi.yaml"
+      "url": "https://hltb-plugin-danhimebauch.replit.app/openapi.yaml"
     },
-    "logo_url": "http://localhost:5003/logo.png",
+    "logo_url": "https://hltb-plugin-danhimebauch.replit.app/logo.png",
     "contact_email": "danielhimebauch@gmail.com",
     "legal_info_url": "https://github.com/xXJSONDeruloXx/HLTB-Plugin/tree/main"
   }
